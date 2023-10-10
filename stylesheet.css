@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'header';
+    src: url(./assets/fonts/header.otf);
+}
+@font-face {
+    font-family: 'f2';
+    src: url(./assets/fonts/f2.otf);
+}
+@font-face {
+    font-family: 'f1';
+    src: url(./assets/fonts/f1.ttf);
+}
+@font-face {
+    font-family: 'f3';
+    src: url(./assets/fonts/f3.ttf);
+}
+@font-face {
+    font-family: 'f4';
+    src: url(./assets/fonts/f4.otf);
+}
+
+html{
+    background-color: aqua;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+header {
+    background-color: #9bffff;
+    color: #fff;
+    padding:20px 0 0 0 ;
+    text-align: center;
+    font-family: 'f1', Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9bffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: f3;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #d30d0d;
+    
+}
+
+.features {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        margin-bottom: 20px;
+    }
+}
+#flow{
+    color: rgb(243, 175, 158);
+    font-family: f2;
+    margin-top: -50px;
+margin-left: 110px;
+}
+#format{
+    color: rgb(240, 137, 185);
+}
+.feature{
+    background-color: #9bffff;
+    margin-right: 20px;
+}
+
+#b1{
+    background-color: #9bffff;
+    border-color: #9bffff;
+    color: #333;
+    font-size: 20px;
+    font-family: f3;
+    font-weight: 900;
+
+}
+#p1{
+    font-size: 30px;
+    text-align: center;
+    font-family: f3, serif;
+    font-weight: 900;
+}
