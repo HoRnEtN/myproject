@@ -2,47 +2,43 @@
     font-family: 'header';
     src: url(./assets/fonts/header.otf);
 }
+
 @font-face {
     font-family: 'f2';
     src: url(./assets/fonts/f2.otf);
 }
+
 @font-face {
     font-family: 'f1';
     src: url(./assets/fonts/f1.ttf);
 }
+
 @font-face {
     font-family: 'f3';
     src: url(./assets/fonts/f3.ttf);
 }
+
 @font-face {
     font-family: 'f4';
     src: url(./assets/fonts/f4.otf);
 }
-
-html{
-    background-color: aqua;
-}
-
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 100%;
+    margin-left: 20px ;
+    margin-right: 20px ;
     padding: 20px;
-    background-color: #ffffff;
+    margin-top: 20px;
+    background-color: #54c0ff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-header {
-    background-color: #9bffff;
-    color: #fff;
-    padding:20px 0 0 0 ;
-    text-align: center;
-    font-family: 'f1', Arial, Helvetica, sans-serif;
-}
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to right, rgb(154, 228, 247), rgb(114, 241, 203));
+
 }
 
 
@@ -50,6 +46,7 @@ h1 {
     margin: 0;
     font-size: 36px;
 }
+
 p {
     font-size: 18px;
     line-height: 1.6;
@@ -70,7 +67,7 @@ p {
 
 .btn:hover {
     background-color: #d30d0d;
-    
+
 }
 
 .features {
@@ -106,21 +103,24 @@ p {
         margin-bottom: 20px;
     }
 }
-#flow{
-    color: rgb(243, 175, 158);
+
+#flow {
+    color: rgb(14, 185, 28);
     font-family: f2;
     margin-top: -50px;
-margin-left: 110px;
+    margin-left: 110px;
 }
-#format{
-    color: rgb(240, 137, 185);
+
+#format {
+    color: rgb(144, 11, 73);
 }
-.feature{
+
+.feature {
     background-color: #9bffff;
     margin-right: 20px;
 }
 
-#b1{
+#b1 {
     background-color: #9bffff;
     border-color: #9bffff;
     color: #333;
@@ -129,9 +129,21 @@ margin-left: 110px;
     font-weight: 900;
 
 }
-#p1{
+
+#p1 {
     font-size: 30px;
     text-align: center;
     font-family: f3, serif;
     font-weight: 900;
+}
+
+header {
+    background-color: #9bffff00;
+    color: #fff;
+    padding: 20px 0 0 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'f1', Arial, Helvetica, sans-serif;
 }
